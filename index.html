@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Company Profile</title>
+</head>
+<body>
+    
+  <!-- navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="#">Fajar Company</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#layanan">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tentang">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#staff">Staff</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- akhir navigasi -->
+
+      <!-- banner -->
+      <div class="container-fluid banner">
+        <div class="container text-center">
+          <h4 class="display-6">Selamat Datang di Website Kami</h4>
+          <h3 class="display-1"> Halo !</h3>
+          <a href="#layanan">
+            <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
+          </a>
+        </div>
+      </div>
+      <!-- akhir banner -->
+
+      <!-- pt itu padding top -->
+      <!-- layanan -->
+      <div class="container-fluid layanan pt-5 pb-5">
+        <div class="container text-center">
+          <h2 class="display-3" id="layanan">Layanan</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quam.</p>
+          <div class="row pt-4">
+            <div class="col-md-4">
+              <span class="lingkaran"><i class="fa-sharp fa-solid fa-code fa-5x"></i>
+              </span>
+              <h3 class="mt-3">Programming</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, nobis.</p>
+            </div>
+            <div class="col-md-4">
+              <span class="lingkaran"><i class="fa-solid fa-palette fa-5x"></i>
+              </span>
+              <h3 class="mt-3">Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, nobis.</p>
+            </div>
+            <div class="col-md-4">
+              <span class="lingkaran"><i class="fa-solid fa-network-wired fa-5x"></i>
+              </span>
+              <h3 class="mt-3">Networking</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, nobis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir layanan -->
+
+      <!-- portofolio -->
+      <div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+          <h2 class="display-3" id="portofolio">Portofolio</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae porro ipsa ex accusantium voluptas quia atque nam molestiae dolor hic.</p>
+          <div class="row pt-4 gx-4 gy-4">
+            <!-- akan menggunkan 3 kolom kalau md 4 -->
+            <div class="col-md-4">
+              <div class="card crop-img">
+                <img src="https://bikin.website/wp-content/themes/twentynineteen-child/img/feature-page/img_responsive.png" 
+                class="card-img-top width="200px" height="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum eius illum optio repellat ducimus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 crop-img">
+              <div class="card">
+                <img src="https://media.suara.com/pictures/480x260/2020/04/18/15789-cara-membuat-website.jpg" 
+                class="card-img-top width="200px" height="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum eius illum optio repellat ducimus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 crop-img">
+              <div class="card">
+                <img src="https://media.suara.com/pictures/480x260/2020/04/18/15789-cara-membuat-website.jpg" 
+                class="card-img-top width="200px" height="200px" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum eius illum optio repellat ducimus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 crop-img">
+              <div class="card">
+                <img src="https://media.suara.com/pictures/480x260/2020/04/18/15789-cara-membuat-website.jpg" 
+                class="card-img-top" width="200px" height="200px"/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum eius illum optio repellat ducimus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 crop-img">
+              <div class="card">
+                <img src="https://media.suara.com/pictures/480x260/2020/04/18/15789-cara-membuat-website.jpg" 
+                class="card-img-top" width="200px" height="200px"/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum eius illum optio repellat ducimus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 crop-img">
+              <div class="card">
+                <img src="https://media.suara.com/pictures/480x260/2020/04/18/15789-cara-membuat-website.jpg" 
+                class="card-img-top" width="200px" height="200px"/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque earum eius illum optio repellat ducimus.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir portofolio -->
+
+      <!-- tentang -->
+      <div class="container-fluid pt-5 pb-5" >
+        <div class="container">
+          <h2 class="display-3 text-center " id="tentang">
+            Tentang
+          </h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus necessitatibus ipsum, amet error quae!
+          </p>
+          <div class="clearfix pt-5">
+            <img src="https://img.freepik.com/free-vector/about-us-website-banner-concept-with-thin-line-flat-design_56103-96.jpg?size=626&ext=jpg" class="col-md-6 float-md-end mb-3 crop-img" width="200" height="200"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consectetur possimus accusamus, dicta architecto ipsa!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi deserunt dolores delectus voluptatem ipsa quidem quam commodi! Ut, a reiciendis?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officiis a fugiat ipsa perferendis temporibus iste, quibusdam voluptatum nobis incidunt.</p>
+          </div>
+        </div>
+      </div>
+      <!-- akhir tentang -->
+
+      <!-- tim -->
+      <div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+          <h2 class="display-3" id="staff"> Tim Kami</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi reiciendis commodi nobis, provident totam pariatur aspernatur delectus quis quam sunt.</p>
+          <div class="row pt-4 gx-4 gy-4">
+            <div class="col-md-4 text-center tim">
+              <img src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png" 
+              class="rounded-circle mb-3">
+              <!-- rounder-circle untuk membuat border bulat -->
+              <h4>John Doe</h4>
+              <p>Web Designer</p>
+              <p>
+                <a href="" class="social"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="social"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="social"><i class="fa-brands fa-linkedin"></i></a>
+              </p>
+
+            </div>
+            <div class="col-md-4 text-center tim">
+              <img src="https://www.kingrosales.com/wp-content/uploads/2018/05/king-rosales-profile-photo-square.jpg" 
+              class="rounded-circle mb-3">
+              <!-- rounder-circle untuk membuat border bulat -->
+              <h4>John Doe</h4>
+              <p>Data Engineer</p>
+              <p>
+                <a href="" class="social"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="social"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="social"><i class="fa-brands fa-linkedin"></i></a>
+              </p>
+
+            </div>
+            <div class="col-md-4 text-center tim">
+              <img src="http://gokubi.com/wp-content/uploads/2013/10/Steve-Andersen-Headshot-square1.jpeg" 
+              class="rounded-circle mb-3">
+              <!-- rounder-circle untuk membuat border bulat -->
+              <h4>John Doe</h4>
+              <p>Frontend Developer</p>
+              <p>
+                <a href="" class="social"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="social"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="social"><i class="fa-brands fa-linkedin"></i></a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir tim -->
+
+      <!-- client -->
+      <div class="container-fluid client pt-5 pb-5">
+        <div class="container text-center">
+          <div class="row  pt-4 gx-4 gy-4">
+            <div class="col">
+              <img src="" ><i class="fa-brands fa-windows"></i>
+            </div>
+            <div class="col">
+              <img src="" ><i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="col">
+              <img src="" ><i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir client -->
+
+      <!-- kontak -->
+      <div class="container-fluid kontak pt-5 pb-5">
+        <div class="container">
+          <h2 class="display-3 text-center" id="kontak">
+            Kontak Kami
+          </h2>
+          <p class="text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, quo. Officiis, sapiente!
+          </p>
+          <div class="row pb-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control form-control-lg mb-3" placeholder="Email">
+              <input type="text" class="form-control form-control-lg mb-3" placeholder="Nama">
+              <input type="text" class="form-control form-control-lg mb-3" placeholder="No. Phone">
+            </div>
+            <div class="col-md-6">
+              <textarea class="form-control form-control-lg" rows="5"></textarea>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+              <button type="button" class="btn btn-danger btn-lg"> Kirim Pesan </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir kontak -->
+
+      <div class="container text-center pt-5 pb-5">
+          All Rights Reserved &copy; 2022
+      </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+</html>
